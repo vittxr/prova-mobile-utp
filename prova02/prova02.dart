@@ -128,15 +128,15 @@ class _CampoMinadoGameState extends State<CampoMinadoGame> {
             ElevatedButton(
               onPressed: novoJogo,
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue, // Fundo azul
-                foregroundColor: Colors.white, // Cor do texto
+                backgroundColor: Colors.blue, 
+                foregroundColor: Colors.white, 
                 textStyle: const TextStyle(
-                  fontWeight: FontWeight.bold, // Texto em negrito
+                  fontWeight: FontWeight.bold, 
                 ),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(
                     4,
-                  ), // Menor border radius para deixar mais "quadrado"
+                  ), 
                 ),
               ),
               child: const Text('Novo Jogo'),
